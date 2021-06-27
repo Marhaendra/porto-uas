@@ -24,7 +24,7 @@ export default function Beranda(props) {
                                 </GridItem>
                                 <GridItem colStart={5} colEnd={8} rowStart={1} width="full" height="120px">
                                     <Heading as="h1" fontFamily="Inconsolata" letterSpacing={"-.0.001rem"} lineHeight={"-.0.001rem"} fontSize={{ base: "1xl", md: "3xl", lg: "5xl" }}>
-                                    <img src="https://keep.google.com/u/0/media/v2/1QmFFZjW-Lzkfr4USAGkwVkv3I0Q_pcQXlbVEUJasImv-XKAUYkdHdE5C9FhjrqszC1La/1FhR91T5RV2BxQw-yNWTkiax0VlRMLdb-FuqQIokJiO24F_ln51-zKCBrz9knfCiBc99Y?accept=image/gif,image/jpeg,image/jpg,image/png,image/webp,audio/aac&sz=5000" alt="Italian Trulli"></img>
+                                    <img src="../assets/images/porto.png" alt=""></img>
                                     </Heading>
                                 </GridItem>
                                 <GridItem colSpan={{ base: 6, md: 2, lg: 2 }} rowStart={2} width="full" height="full">
