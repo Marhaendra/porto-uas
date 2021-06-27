@@ -1,7 +1,8 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Layout from "../common/component/layout/layout";
-import { Box, Text, Container, Grid, GridItem, Heading } from '@chakra-ui/react';
+import { Box, Text, Container, Grid, GridItem, Heading, Image } from '@chakra-ui/react';
+import porto from "../assets/images/porto.png";
 
 export default function Beranda(props) {
     return (
@@ -24,7 +25,16 @@ export default function Beranda(props) {
                                 </GridItem>
                                 <GridItem colStart={5} colEnd={8} rowStart={1} width="full" height="120px">
                                     <Heading as="h1" fontFamily="Inconsolata" letterSpacing={"-.0.001rem"} lineHeight={"-.0.001rem"} fontSize={{ base: "1xl", md: "3xl", lg: "5xl" }}>
-                                    <img src="../assets/images/porto.png" alt=""></img>
+                                    <Image
+                                    src={porto}
+                                    loading="lazy"
+                                    alt="picture"
+                                    boxSize="full"
+                                    objectFit="cover"
+                                    borderRadius="md"
+                                    width="full"
+                                    height="full"
+                                />
                                     </Heading>
                                 </GridItem>
                                 <GridItem colSpan={{ base: 6, md: 2, lg: 2 }} rowStart={2} width="full" height="full">
